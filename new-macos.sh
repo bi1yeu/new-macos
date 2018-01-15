@@ -76,7 +76,7 @@ brew install emacs-plus
 brew linkapps emacs-plus
 
 [ -f ~/.emacs.d ] && git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-[ -f ~/.dotfiles ] && git clone https://github.com/bi1yeu/dotfiles ~/.dotfiles && ./.dotfiles/link-dotfiles.sh
+[ -f ~/.dotfiles ] && git clone git@github.com:bi1yeu/dotfiles.git ~/.dotfiles && ./.dotfiles/link-dotfiles.sh
 
 if [ ! -f ~/.bash_profile ]; then
     echo '=== No ~/.bash_profile found; creating one ==='
