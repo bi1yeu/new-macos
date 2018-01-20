@@ -44,6 +44,7 @@ echo '=== Installing Brews ==='
 brew install aspell                        # http://aspell.net/
 brew install bash-completion               # https://github.com/scop/bash-completion
 brew install bash-git-prompt               # https://github.com/magicmonty/bash-git-prompt
+brew install fd                            # https://github.com/sharkdp/fd
 brew install git                           # https://git-scm.com/
 brew install gnupg2                        # https://www.gnupg.org/
 brew install htop                          # http://hisham.hm/htop/
