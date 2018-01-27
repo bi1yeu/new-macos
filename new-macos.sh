@@ -54,6 +54,7 @@ brew install markdown                      # http://daringfireball.net/projects/
 brew install pandoc                        # http://pandoc.org/
 brew install python3                       # https://www.python.org
 brew install shellcheck                    # https://www.shellcheck.net/
+brew install speedtest-cli                 # https://github.com/sivel/speedtest-cli
 brew install the_silver_searcher           # https://github.com/ggreer/the_silver_searcher/
 brew install tldr                          # http://tldr-pages.github.io/
 brew install trash                         # http://hasseg.org/trash/
