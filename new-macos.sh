@@ -4,6 +4,9 @@
 
 set -e
 
+[ -z "$EMAIL" ] && echo "Need to set EMAIL. Please see README.md." && exit 1
+[ -z "$FULLNAME" ] && echo "Need to set FULLNAME. Please see README.md." && exit 1
+
 echo '=== Installing (or updating) Homebrew ==='
 
 # https://brew.sh/
@@ -33,16 +36,21 @@ echo '=== Installing Spacemacs ==='
 [ -f ~/.emacs.d ] && git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 [ -f ~/.dotfiles ] && git clone git@github.com:bi1yeu/dotfiles.git ~/.dotfiles && ./.dotfiles/link-dotfiles.sh
 
-if [ ! -f ~/.bash_profile ]; then
-    echo '=== No ~/.bash_profile found; creating one ==='
-    touch ~/.bash_profile
-    echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.bash_profile
-    echo '[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion' >> ~/.bash_profile
-    echo 'if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
-    source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
-fi' >> ~/.bash_profile
-    echo 'GIT_PROMPT_ONLY_IN_REPO=1' >> ~/.bash_profile
+if [ ! -f ~/.zprofile ]; then
+    echo '=== No ~/.zprofile found; creating one ==='
+    touch ~/.zprofile
+    echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zprofile
 fi
+
+echo '=== Configuring zsh ==='
+
+# zsh already installed via Homebrew above
+if ! grep -q /usr/local/bin/zsh "/etc/shells"; then
+  echo 'adding /usr/local/bin/zsh to /etc/shells'
+  echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells
+fi
+
+echo 'Installing oh-my-zsh'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo '=== Done :) ==='
