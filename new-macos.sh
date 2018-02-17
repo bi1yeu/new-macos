@@ -40,6 +40,7 @@ if [ ! -f ~/.zprofile ]; then
     echo '=== No ~/.zprofile found; creating one ==='
     touch ~/.zprofile
     echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zprofile
+    echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.zprofile
 fi
 
 echo '=== Configuring zsh ==='
