@@ -26,6 +26,7 @@ Casks installed:
 - [private-internet-access](https://www.privateinternetaccess.com)
 - [spectacle](https://www.spectacleapp.com/)
 - [transmission](https://transmissionbt.com)
+- [vlc](https://www.videolan.org/vlc/index.html)
 
 Brews installed:
 
