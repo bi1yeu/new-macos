@@ -32,7 +32,6 @@ Casks installed:
 Brews installed:
 
 - [aspell](http://aspell.net/)
-- [certbot](https://certbot.eff.org/)
 - [fd](https://github.com/sharkdp/fd)
 - [git](https://git-scm.com/)
 - [gnupg2](https://www.gnupg.org/)
