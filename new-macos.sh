@@ -41,6 +41,7 @@ if [ ! -f ~/.zprofile ]; then
     touch ~/.zprofile
     echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zprofile
     echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.zprofile
+    echo 'alias spacemacs="/usr/local/opt/emacs-plus/bin/emacs -nw"' >> ~/.zprofile
 fi
 
 echo '=== Configuring zsh ==='

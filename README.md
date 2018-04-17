@@ -12,6 +12,7 @@ Casks installed:
 
 - [alfred](https://www.alfredapp.com/)
 - [authy](https://authy.com)
+- [basictex](https://www.tug.org/mactex/morepackages.html)
 - [calibre](https://calibre-ebook.com/)
 - [darktable](http://www.darktable.org)
 - [dropbox](https://dropbox.com)
@@ -22,6 +23,7 @@ Casks installed:
 - [java](https://java.com/en/download/)
 - [keepingyouawake](https://github.com/newmarcel/KeepingYouAwake)
 - [licecap](http://www.cockos.com/licecap/)
+- [marp](https://yhatt.github.io/marp/)
 - [meteorologist](http://heat-meteo.sourceforge.net/)
 - [middleclick](http://rouge41.com/labs/)
 - [private-internet-access](https://www.privateinternetaccess.com)
