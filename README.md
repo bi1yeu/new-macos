@@ -11,7 +11,6 @@ Configures [Spacemacs](http://spacemacs.org/) as an editor and changes shell to 
 Casks installed:
 
 - [alfred](https://www.alfredapp.com/)
-- [apptivate](http://www.apptivateapp.com/support/)
 - [authy](https://authy.com)
 - [basictex](https://www.tug.org/mactex/morepackages.html)
 - [calibre](https://calibre-ebook.com/)

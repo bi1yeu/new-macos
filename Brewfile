@@ -28,7 +28,6 @@ brew "zsh"
 brew "zsh-completions"
 brew "d12frosted/emacs-plus/emacs-plus", args: ["HEAD"], link: false
 cask "alfred"
-cask "apptivate"
 cask "authy"
 cask "basictex"
 cask "calibre"
