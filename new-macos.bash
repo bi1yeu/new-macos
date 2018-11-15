@@ -34,7 +34,7 @@ echo '=== Installing Spacemacs ==='
 # emacs-plus installed via Homebrew above
 
 [ -f ~/.emacs.d ] && git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-[ -f ~/.dotfiles ] && git clone git@github.com:bi1yeu/dotfiles.git ~/.dotfiles && ./.dotfiles/link-dotfiles.sh
+[ -f ~/.dotfiles ] && git clone git@github.com:bi1yeu/dotfiles.git ~/.dotfiles && ./.dotfiles/link-dotfiles.bash
 
 if [ ! -f ~/.zprofile ]; then
     echo '=== No ~/.zprofile found; creating one ==='
