@@ -3,7 +3,7 @@ Simple, idempotent bash script to install MacOS programs and set up a new enviro
 Usage:
 
 ```bash
-$ FULLNAME='Philip Mountbatten' EMAIL=phil@edinburgh.net bash new-macos.sh
+$ FULLNAME='Philip Mountbatten' EMAIL=phil@edinburgh.net bash new-macos.bash
 ```
 
 Configures [Spacemacs](http://spacemacs.org/) as an editor and changes shell to [zsh](https://www.zsh.org/).
@@ -24,7 +24,6 @@ Casks installed:
 - [keepingyouawake](https://github.com/newmarcel/KeepingYouAwake)
 - [licecap](http://www.cockos.com/licecap/)
 - [marp](https://yhatt.github.io/marp/)
-- [meteorologist](http://heat-meteo.sourceforge.net/)
 - [middleclick](http://rouge41.com/labs/)
 - [private-internet-access](https://www.privateinternetaccess.com)
 - [spectacle](https://www.spectacleapp.com/)
@@ -34,17 +33,19 @@ Casks installed:
 Brews installed:
 
 - [aspell](http://aspell.net/)
+- [emacs-plus](https://github.com/d12frosted/homebrew-emacs-plus)
 - [fd](https://github.com/sharkdp/fd)
 - [git](https://git-scm.com/)
 - [gnupg2](https://www.gnupg.org/)
 - [htop](http://hisham.hm/htop/)
 - [jq](https://stedolan.github.io/jq/)
 - [leiningen](http://leiningen.org/)
+- [lolcat](https://github.com/busyloop/lolcat)
 - [markdown](http://daringfireball.net/projects/markdown/)
+- [mosh](https://mosh.org/)
+- [ncdu](https://dev.yorhel.nl/ncdu)
 - [node](https://nodejs.org/en/)
 - [pandoc](http://pandoc.org/)
-- [pipenv](https://docs.pipenv.org/)
-- [python](https://www.python.org)
 - [speedtest-cli](https://github.com/sivel/speedtest-cli)
 - [the_silver_searcher](https://github.com/ggreer/the_silver_searcher/)
 - [tldr](http://tldr-pages.github.io/)
