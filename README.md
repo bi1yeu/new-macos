@@ -25,9 +25,9 @@ Casks installed:
 - [licecap](http://www.cockos.com/licecap/)
 - [marp](https://yhatt.github.io/marp/)
 - [middleclick](http://rouge41.com/labs/)
-- [private-internet-access](https://www.privateinternetaccess.com)
 - [spectacle](https://www.spectacleapp.com/)
 - [transmission](https://transmissionbt.com)
+- [tunnelblick](https://tunnelblick.net/)
 - [vlc](https://www.videolan.org/vlc/index.html)
 
 Brews installed:
