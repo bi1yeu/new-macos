@@ -46,6 +46,7 @@ Brews installed:
 - [ncdu](https://dev.yorhel.nl/ncdu)
 - [node](https://nodejs.org/en/)
 - [pandoc](http://pandoc.org/)
+- [sox](http://sox.sourceforge.net/)
 - [speedtest-cli](https://github.com/sivel/speedtest-cli)
 - [the_silver_searcher](https://github.com/ggreer/the_silver_searcher/)
 - [tldr](http://tldr-pages.github.io/)
