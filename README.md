@@ -53,6 +53,7 @@ Brews installed:
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [trash](http://hasseg.org/trash/)
 - [tree](http://mama.indstate.edu/users/ice/tree/)
+- [watch](http://www.linfo.org/watch.html)
 - [wget](https://www.gnu.org/software/wget/)
 - [zsh](https://www.zsh.org/)
 - [zsh-completions](https://www.zsh.org/)
