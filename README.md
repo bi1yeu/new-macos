@@ -14,6 +14,7 @@ Casks installed:
 - [authy](https://authy.com)
 - [basictex](https://www.tug.org/mactex/morepackages.html)
 - [calibre](https://calibre-ebook.com/)
+- [clipy](https://clipy-app.com/)
 - [darktable](http://www.darktable.org)
 - [dropbox](https://dropbox.com)
 - [firefox](https://www.mozilla.org/en-US/firefox/)
