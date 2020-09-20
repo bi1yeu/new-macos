@@ -36,6 +36,7 @@ Brews installed:
 - [aspell](http://aspell.net/)
 - [emacs-plus](https://github.com/d12frosted/homebrew-emacs-plus)
 - [fd](https://github.com/sharkdp/fd)
+- [dos2unix](https://linux.die.net/man/1/dos2unix)
 - [git](https://git-scm.com/)
 - [gnupg2](https://www.gnupg.org/)
 - [htop](http://hisham.hm/htop/)
